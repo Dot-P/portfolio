@@ -1,0 +1,37 @@
+.Certification-container span{
+    display: flex;
+    gap: 0px;
+}
+
+.Certification-container p{
+    margin: auto;
+    padding: auto;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Certification-container ul {
+    list-style-type: none;
+  }
+  
+  .Certification-container .event-date{
+    margin-right: 0px;
+  }
+
+  .Certification-container .underline-text {
+    width: calc(100% - 20px); 
+    border-bottom: 1px solid #000; /* 線の太さと色を指定 */
+    padding-bottom: 2px;
+    padding-top: 2px;
+  }
+  
+  .Certification-container .event-date {
+    flex: 1;
+}
+
+.Certification-container p {
+    flex: 3;
+}

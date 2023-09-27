@@ -1,0 +1,55 @@
+.header-container{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.header-container-left a{
+    margin-left: 30px;
+    color: black; 
+    text-decoration: none; 
+}
+
+.header-container-left span{
+    margin-left: 30px;
+}
+
+.header-container-right{
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.header-container-right img{
+    height: 30px;
+    width: auto;
+    margin-left: 40px;
+}
+
+.title-image{
+    display: inline-block;
+    position: relative;
+}
+
+.title-image img{
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+.title-image h1{
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+}
+
+.header-container-left .logo{
+    font-family: 'Langar', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #FFB35A; /* 線の太さと色 */
+    padding-bottom: 1px; /* 線とテキストの間隔 */
+    margin-bottom: 2px;
+}
