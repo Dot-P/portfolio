@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Portfolio{
+  display: block;
+}
+
+.develop {
+  display: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 670px) {
+  .Portfolio {
+    display: none;  /* 非表示にする */
+  }
+  .develop {
+    display: flex;  /* 表示する */
+    flex-direction: column;  /* 縦方向に要素を配置 */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* 画面の高さに合わせる */
+    background-color: rgba(0, 0, 0, 0.8);  /* 背景色 */
+  }
+  
+  .develop p {
+    font-size: 24px;  /* フォントサイズ */
+    color: #ffffff;  /* 文字色 */
+    text-align: center;  /* テキストを中央寄せ */
+    border: 2px solid #ffffff;  /* 枠線 */
+    padding: 20px;  /* 内側の余白 */
+    border-radius: 10px;  /* 角を丸く */
+  }
+}

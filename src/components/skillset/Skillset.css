@@ -1,0 +1,51 @@
+.skillset-container .skill-title{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.skillset-container .skill-title h2{
+    text-decoration: underline; 
+    text-underline-offset: 8px; 
+    padding-bottom: 30px;
+    text-decoration-color: #FF5C00; 
+}
+
+.skillset-container .skill-title p{
+    margin-bottom: 50px;
+}
+
+.star1{
+    color: #FF5C00;
+    font-size: 20px;
+}
+
+.star0{
+    color: #C8C8C8;
+    font-size: 20px;
+}
+
+.skill-pic img{
+    margin-top: 30px;
+    height: 90px;
+    width: auto;
+}
+
+.skills-frame {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.skill {
+    flex: 1 1 calc(50% - 10px); /* 50%の幅を持つようにし、少しのマージンを許容 */
+    margin: 5px;
+  }
+  
+  .skill-caption h3{
+    margin-top: 8px;
+    font-size: 22px;
+  }
+
+  .skill-caption p{
+    margin-top: 10px;
+    font-size: 15px;
+  }

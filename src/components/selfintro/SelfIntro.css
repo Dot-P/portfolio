@@ -1,0 +1,139 @@
+
+.selfIntro-container{
+  display: flex;
+  margin-top: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 1px solid black;  
+}
+
+.selfIntro-container-left{
+  margin-top: 18px;
+}
+
+.pics img{
+    border: 3px solid #FF5C00;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.pics .img-me{
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  margin-left: 25%;
+  margin-top: 8%;
+}
+
+.pics .img-sns{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  margin-left: 60px;
+}
+
+.intro-brif{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+}
+
+.intro-brif p{
+  padding-right: 10px;
+}
+
+.vertical-line {
+  border-left: 2px solid #FF5C00;  /* 線の太さと色を指定 */
+  height: 70px;  /* 線の高さ */
+  position: absolute;  /* 絶対位置指定 */
+  margin-left: 40px;
+}
+
+.intro-brif-left {
+  margin-left: 70px;  /* 右側のマージン */
+}
+
+.intro-brif-right {
+  margin-right: 70px;  /* 左側のマージン */
+}
+
+.selfIntro-container-right{
+  margin-top: 3%;
+}
+
+.selfIntro-container-right h2{
+  color: #000;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.selfIntro-container-right h3{
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.selfIntro-container-right p{
+  margin-top: 20px;
+  color: #000;
+  font-family: Inria Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.selfIntro-container-right h4{
+  margin-top: 30px;
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  width: 220px;
+  margin-left: 0px;
+  padding-left: 15px;
+  background-color: #FF5C00;
+}
+
+.intro-brif-ans{
+  font-weight: 700;
+  font-size: 25px; 
+  margin-bottom: 5px;
+}
+
+
+
+@media screen and (max-width: 880px) {
+  .selfIntro-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .selfIntro-container .pics{
+    margin-left: 10%;
+  }
+  .pics .img-sns{
+    margin-left: 20%;
+    margin-top: 1%;
+  }
+  .intro-brif-left{
+    margin-left: 25%;
+  }
+  .intro-brif-right{
+    margin-right: 25%;
+  }
+  .vertical-line{
+    margin-left: 7%;
+    margin-right: 5%;
+  }
+  .intro-brif{
+    margin-left: 3%;
+  }
+}

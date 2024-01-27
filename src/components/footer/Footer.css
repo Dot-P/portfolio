@@ -1,0 +1,63 @@
+.footer-container { /*画面調整用*/
+    max-width: 880px;  
+    margin: 0 auto; 
+    width: 100%; 
+  }
+
+.footer-container .border-line{
+    border-bottom: 1px solid black;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer-container-up{
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-container-up-left{
+  margin-left: 10px;
+}
+
+.footer-container-up-right{
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.footer-container-up-right span{
+  margin-left: 40px;
+}
+
+.footer-container-down{
+  display: flex;
+  margin-left: auto;
+}
+
+.footer-container-down-left{
+  margin-right: auto;
+}
+
+.footer-container-down-right{
+  margin-right: 5%;
+}
+
+.footer-container-up-left .logo{
+  font-family: 'Langar', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #FFB35A; /* 線の太さと色 */
+  margin-bottom: 10px;
+}
+
+.footer-container-down{
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+  
+  @media screen and (max-width: 880px) {
+    .footer-container {
+      margin: 0;  /* 880px以下の場合、左右のマージンをなくす */
+    }
+  }
+  

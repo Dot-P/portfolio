@@ -1,0 +1,71 @@
+.output-container h2{
+    padding: 0.25em 0.5em;/*上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 10px #FF5C00;/*左線*/
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.programming-contest{
+        border: 1px solid #000; /* 枠線の太さと色 */
+        padding: 15px; /* 内側の余白 */
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+}
+
+.blog-container{
+    border: 1px solid #000; /* 枠線の太さと色 */
+    padding: 15px; /* 内側の余白 */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.artwork-container{
+    border: 1px solid #000; /* 枠線の太さと色 */
+    padding: 15px; /* 内側の余白 */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.output-container h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.programming-contest p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.parti-sen p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.caption-container{
+    display: flex;
+    align-items: center;
+}
+
+.blog-caption p{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.blog-caption ul{
+    margin-top: 50px;
+}
+
+.artwork-container h4{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.artwork-container li{
+    margin-bottom: 8px;
+}

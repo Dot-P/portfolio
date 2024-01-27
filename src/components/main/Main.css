@@ -1,0 +1,20 @@
+.body-container *{ /*画面調整用*/
+    max-width: 880px;  
+    margin: 0 auto; 
+    width: 100%; 
+  }
+
+  .body-container .section{
+      padding: 0.25em 0.5em;/*上下 左右の余白*/
+      color: #494949;/*文字色*/
+      background: transparent;/*背景透明に*/
+      border-left: solid 10px #FF5C00;/*左線*/
+      margin-top: 90px;
+      margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 880px) {
+    .body-container *{
+      margin: 0px; 
+    }
+  }
