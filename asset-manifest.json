@@ -1,31 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.45d909e3.css",
-    "main.js": "/portfolio/static/js/main.e6be06f9.js",
+    "main.css": "/portfolio/static/css/main.732dcf4d.css",
+    "main.js": "/portfolio/static/js/main.3d43652c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/精進コーダー.png": "/portfolio/static/media/精進コーダー.22bc28f3ee18a25d7a4a.png",
     "static/media/Me.png": "/portfolio/static/media/Me.760c852f5346c22ce828.png",
     "static/media/user.png": "/portfolio/static/media/user.5a15731e5a71cee8fa72.png",
-    "static/media/Python.png": "/portfolio/static/media/Python.dea924d737bb84eb9ce3.png",
+    "static/media/Atcoder_ver1.png": "/portfolio/static/media/Atcoder_ver1.e3a10a4c97b65eabe6ff.png",
+    "static/media/精進コーダー_var2.png": "/portfolio/static/media/精進コーダー_var2.b993b054b0ff48fa5a34.png",
     "static/media/hack.png": "/portfolio/static/media/hack.dcabac93d53313a7f53b.png",
     "static/media/title.png": "/portfolio/static/media/title.e3e5fbff7781debd45aa.png",
-    "static/media/linux.png": "/portfolio/static/media/linux.8018150e0e98743fdfd8.png",
     "static/media/taboo.png": "/portfolio/static/media/taboo.180f216fb6e798617423.png",
-    "static/media/C++.png": "/portfolio/static/media/C++.64f637357bce0ccc8384.png",
-    "static/media/javascript.png": "/portfolio/static/media/javascript.a3a6a2dd64312e587ac4.png",
-    "static/media/github.png": "/portfolio/static/media/github.4bb497e598c121a691f7.png",
-    "static/media/html.png": "/portfolio/static/media/html.11b4be86c75df076dfa3.png",
-    "static/media/SQLite.png": "/portfolio/static/media/SQLite.3084cd900857c3f0275b.png",
-    "static/media/Typescript.png": "/portfolio/static/media/Typescript.4e3f27e6784d69f4f587.png",
-    "static/media/Dart.png": "/portfolio/static/media/Dart.bdad6803bc291a5dc144.png",
-    "static/media/C.png": "/portfolio/static/media/C.bbbbbabc8c191bfb99bf.png",
     "index.html": "/portfolio/index.html",
-    "main.45d909e3.css.map": "/portfolio/static/css/main.45d909e3.css.map",
-    "main.e6be06f9.js.map": "/portfolio/static/js/main.e6be06f9.js.map",
+    "main.732dcf4d.css.map": "/portfolio/static/css/main.732dcf4d.css.map",
+    "main.3d43652c.js.map": "/portfolio/static/js/main.3d43652c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45d909e3.css",
-    "static/js/main.e6be06f9.js"
+    "static/css/main.732dcf4d.css",
+    "static/js/main.3d43652c.js"
   ]
 }
